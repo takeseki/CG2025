@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2813A49D-32BD-3170-91E7-8862A918C4A6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\bin\cmake.exe" -SC:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project -BC:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project/build --check-stamp-file C:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeCCompiler.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\cmake\helper.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\Program Files\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\bin\cmake.exe" -SC:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project -BC:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project/build --check-stamp-file C:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeCCompiler.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\cmake\helper.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\Program Files\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\bin\cmake.exe" -SC:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project -BC:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project/build --check-stamp-file C:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeCCompiler.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\cmake\helper.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\Program Files\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\bin\cmake.exe" -SC:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project -BC:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project/build --check-stamp-file C:/Users/86151/Desktop/计算机图形学/USTC_CG_25-main/USTC_CG_25-main/Homeworks/0_cpp_warmup/project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeCCompiler.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\cmake\helper.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\Program Files\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\Program Files\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\ZERO_CHECK.vcxproj">
+      <Project>{B509954B-B742-3036-AABC-4C1D9082FCF3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\src\executables\1_BasicDArray\1_BasicDArray.vcxproj">
+      <Project>{051D46B8-DCC5-3825-BBBA-579EA2398153}</Project>
+      <Name>1_BasicDArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\src\executables\2_EfficientDArray\2_EfficientDArray.vcxproj">
+      <Project>{2444347D-02D0-3705-B68E-23505DCC3F89}</Project>
+      <Name>2_EfficientDArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\src\executables\3_TemplateDArray\3_TemplateDArray.vcxproj">
+      <Project>{0060A719-6269-3F06-9B8A-26FBEEFE66D7}</Project>
+      <Name>3_TemplateDArray</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\src\executables\4_list_Polynomial\4_list_Polynomial.vcxproj">
+      <Project>{BE089874-A89D-3D18-A1E6-9B3A5C994912}</Project>
+      <Name>4_list_Polynomial</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\src\executables\5_map_Polynomial\5_map_Polynomial.vcxproj">
+      <Project>{AA930FA8-5005-3F79-9B04-B0A0CF592E40}</Project>
+      <Name>5_map_Polynomial</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\src\libraries\shared\PolynomialListLib.vcxproj">
+      <Project>{6DC50264-21C5-3014-AAD1-55E2BD48F049}</Project>
+      <Name>PolynomialListLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\build\src\libraries\static\PolynomialMapLib.vcxproj">
+      <Project>{636E8E1C-BC58-31C1-96C9-C55E0020DD7A}</Project>
+      <Name>PolynomialMapLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

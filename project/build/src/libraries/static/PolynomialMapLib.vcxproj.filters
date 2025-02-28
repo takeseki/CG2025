@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\src\libraries\static\PolynomialMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\86151\Desktop\计算机图形学\USTC_CG_25-main\USTC_CG_25-main\Homeworks\0_cpp_warmup\project\src\libraries\static\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D98385BC-62E7-3FFE-ADBA-D321AA52BCDF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "PolynomialListLib::@51392703d4c1107cea82"
+		},
+		{
+			"id" : "PolynomialMapLib::@f547a5d5381f6c3500c2"
+		},
+		{
+			"id" : "1_BasicDArray::@3a702d396c0769376f52"
+		},
+		{
+			"id" : "2_EfficientDArray::@60e2bc2bc639656638ff"
+		},
+		{
+			"id" : "5_map_Polynomial::@7451047c9424103abd13"
+		},
+		{
+			"id" : "3_TemplateDArray::@032c9c8e338e0e72bf09"
+		},
+		{
+			"id" : "4_list_Polynomial::@a29325bc6b9e2c5fd92b"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
